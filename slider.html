@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Document</title>
   <style>
     *{
@@ -27,14 +28,11 @@
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
-  padding: 16px;
   margin-top: -50px;
-  color: black;
-  font-weight: bold;
-  font-size: 20px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
+  background: unset;
+  border: none;
   
 }
 
@@ -54,8 +52,8 @@
         <img src="image/sky.jpg">
         <img src="image/f2.jpg" id="first">
       </div>
-      <button id="prevBtn">Prev</button>
-      <button id="nextBtn">Next</button>
+      <button id="prevBtn"><i class="fa fa-angle-left" style="font-size: 60px; color:black;"></i></button>
+      <button id="nextBtn" class="fa fa-angle-right"  style="font-size: 60px; color:black;"></button>
   </div>
   <script src="app.js"></script>
 </body>
